@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="Header"> Registration Form </h1>
+        <form action="" class="form" onsubmit="return validateinputs()">
+            <div class="Field">
+                <label for="Name">Name</label>
+                <input  id="Name" placeholder="Enter name" type="text">
+                <div class="error" id="Name_error"></div>
+            </div>
+            
+            <div class="Field">
+                <label for="Email">Email</label>
+                <input id="Email" placeholder="Enter your Email" type="email"></input>
+                <div class="error" id="email_error"></div>
+            </div>
+
+            <div class="Field">
+                <label for="password">Enter password</label>
+                <input id="password" placeholder="Password" type="password">
+                <div class="error" id="password_error"></div>
+            </div>
+            <div class="Field">
+                <label for="Confirm Password">Confirm password</label>
+                <input id="confPass"placeholder="Password" type="password">
+                <div class="error" id="confpass_error"></div>
+            </div>
+            <div class="Field">
+                <button id="btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+<script src="app.js">
+
+</script>
+
+
+
+
+</body>
+
+</html>
